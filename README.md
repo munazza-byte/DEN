@@ -3,7 +3,7 @@
 ### TASK 1:  Weather Forecast and Historical Data System
 
 ### *OBJECTIVE*:
-.Develop a Weather Forecast and Historical Data System that manages locations, weather variables, and historical data, with capabilities for fetching, displaying, and exporting weather information.
+. Develop a Weather Forecast and Historical Data System that manages locations, weather variables, and historical data, with capabilities for fetching, displaying, and exporting weather information.
 + *DESCRIPTION*:
 .Created a comprehensive tool in C++ for weather forecasting and historical data retrieval.
 .Integrated API functionality to fetch current weather conditions and historical weather data for various locations.
