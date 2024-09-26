@@ -23,6 +23,14 @@ Handled basic input validation and error messages for incorrect choices.
 + *TECHNOLOGIES USED*:C++, vector, I/O streams (iostream).
 + *OUTCOME*:Enabled efficient management of a contact list through a user-friendly interface, facilitating basic operations like adding, removing, and displaying contacts.
 
+### TASK 3:  File Compression and Decompression System
+### OBJECTIVE:
+Developed a system that allows users to compress and decompress text files using Run-Length Encoding (RLE) algorithm, while ensuring file format validation and user-friendly interaction.
++ DESCRIPTION:
+Built a simple file handling system in C++ that facilitates file compression and decompression using RLE. The system allows users to read text files, compress their contents, and store the compressed data in a new file. It also enables the reverse operation by decoding compressed files back to their original content. Incorporated functions for reading from and writing to files, encoding and decoding the string data using RLE, and validating file extensions to ensure correct formats are used. Provided a menu-driven interface that offers users the options to compress, decompress, or exit the program. Handled invalid user inputs using a custom exception class and ensured proper file operations through input validation.
++ TECHNOLOGIES USED: C++, file handling (fstream), string manipulation, Run-Length Encoding (RLE), input validation (custom exception handling).
++ OUTCOME: Successfully implemented a system that efficiently compresses and decompresses text files while providing a user-friendly interface and robust error handling, ensuring smooth interaction for users.
+
 
 
 
