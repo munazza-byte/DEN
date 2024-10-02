@@ -31,6 +31,13 @@ Built a simple file handling system in C++ that facilitates file compression and
 + TECHNOLOGIES USED: C++, file handling (fstream), string manipulation, Run-Length Encoding (RLE), input validation (custom exception handling).
 + OUTCOME: Successfully implemented a system that efficiently compresses and decompresses text files while providing a user-friendly interface and robust error handling, ensuring smooth interaction for users.
 
+### TASK 4:  Multi-Threaded Web Server
+### OBJECTIVE:
+Developed a simple HTTP server in C++ that listens for client connections, handles incoming GET requests, and serves an HTML file to the client.
++ DESCRIPTION:
+Built an HTTP server using socket programming in C++ that listens for incoming client connections, processes basic GET requests, and serves an HTML file (index.html). The system utilizes threading to handle multiple client connections concurrently. Implemented classes to represent generic HTTP requests and specialized GET requests, ensuring a modular approach. The server uses the HttpServer class to manage socket creation, binding, and listening, with a dedicated handleClient method for processing requests. The response includes an HTTP 200 OK status and serves the contents of index.html to the client. Included a simple menu-driven interface that allows users to start the server on a specified port or exit the program. Added functionalities to read from HTML files, respond to client requests, and manage threads, along with proper socket cleanup in the destructor. Basic validation for incoming requests and proper response formatting are provided.
++ TECHNOLOGIES USED: C++, socket programming, threading, file handling (fstream), string manipulation.
++ OUTCOME: Successfully implemented a HTTP server that serves an HTML file to clients, providing a multi-threaded approach to handle concurrent requests while maintaining a user-friendly menu interface.
 
 
 
