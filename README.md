@@ -43,9 +43,9 @@ Built an HTTP server using socket programming in C++ that listens for incoming c
 ### OBJECTIVE:
 Develop a text-based adventure game in C++ that allows players to explore a fantasy world, make choices, and interact with various elements, including puzzles, inventory management, and combat.
 + DESCRIPTION:
-uilt a text-based adventure game using C++ that immerses players in a rich narrative where they wake up in a dark forest and navigate through different locations such as caves, rivers, villages, and mountains. The game features a menu-driven interface that allows players to choose actions, including exploring areas, checking inventory, and engaging in combat with enemies.
+ Built a text-based adventure game using C++ that immerses players in a rich narrative where they wake up in a dark forest and navigate through different locations such as caves, rivers, villages, and mountains. The game features a menu-driven interface that allows players to choose actions, including exploring areas, checking inventory, and engaging in combat with enemies.
 Implemented classes and functions to manage player statistics (HP, Strength, Damage), handle item inventory, and define game scenarios. The game includes puzzles that players must solve to progress and an endgame state based on player choices, allowing for both victory and defeat outcomes. The use of threads was incorporated to allow for smoother user interactions while maintaining game state, ensuring a responsive experience. Basic input validation is provided to enhance user experience.
-+ TECHNOLOGIES USED:C++, object-oriented programming, vector, cstdlib, <ctime>, file handling (fstream), string manipulation, user input handling.
++ TECHNOLOGIES USED: C++, object-oriented programming, vector, cstdlib, <ctime>, file handling (fstream), string manipulation, user input handling.
 + OUTCOME: Successfully implemented a text-based adventure game that engages players with a compelling narrative and interactive gameplay mechanics, providing a rich fantasy experience. Players can collect items, solve puzzles, engage in combat, and navigate through a variety of scenarios, making choices that impact the game's outcome. 
 
 
